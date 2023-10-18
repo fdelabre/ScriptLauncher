@@ -213,7 +213,7 @@ while ($script == 0) {
 	####################################################################################################
 	####################################################################################################
 
-	elsif ($choice == 1) {
+	if ($choice == 1) {
 		if ($slPATH eq null){system("echo '$RED Impossible de lancer ce processus.$DEFAULTCOLOR '");exit;}
 
 		printf("$GREEN -> $YELLOW 1$DEFAULTCOLOR - Nouvelle Installation | $YELLOW 2$DEFAULTCOLOR - Mise à Jour  : ");
